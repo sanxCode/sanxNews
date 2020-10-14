@@ -1,6 +1,6 @@
 // Grab a news container
 let newsAccordion = document.getElementById('newsAccordion');
-let url = 'http://newsapi.org/v2/top-headlines?country=in&apiKey=7bf76a5f4f0c4153bb253982b80b1bdf'
+let url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=7bf76a5f4f0c4153bb253982b80b1bdf'
 // Creat a GET Requet
 const xhr = new XMLHttpRequest;
 xhr.open('GET', url, true)
